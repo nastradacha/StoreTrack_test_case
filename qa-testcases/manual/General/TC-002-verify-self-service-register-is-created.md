@@ -6,15 +6,14 @@ suite: "Register "
 component: "Self register "
 preconditions: "- URL "
 steps: |
-  1. click on this url 
-  2. Click on create account 
-  3. Put any valid and non valid credential 
-  4. Click on submit 
+1. Navigate to storetrack QA - "https: //inventory-app-qa.onrender.com"
 expected: "- Register should be created "
 env: "QA"
 status: "Draft"
 created: "2026-01-13T22:18:08.825Z"
 created_by: "yuslove123l"
+updated_by: nastradacha
+updated: 2026-01-14T01:24:20.992Z
 ---
 
 # Verify self service register is created 
