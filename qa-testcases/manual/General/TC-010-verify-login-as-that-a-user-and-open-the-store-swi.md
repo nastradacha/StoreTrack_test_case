@@ -1,45 +1,45 @@
 ---
-title: " verify Login as that a user and open the store switcher."
+title: "verify Login as that a user and open the store switcher."
 story_id: "us-007"
 priority: "P2"
-suite: "register userstore "
-component: "userstore "
-preconditions: "- user already login"
+suite: "register userstore"
+component: "registration"
+preconditions: "- one account needed"
 data: "momo1@gmail.com"
 steps: |
-  1. go to setting 
-  2. click on billing and select pro to subscrib any plan of your choice
-  3. wait for approval from the admin
-expected: "- user can be able to switch store "
+  1. go to this URL; https://inventory-app-qa.onrender.com/
+  2. login to with your verify password 
+  3. click on your profile to switch to another store
+expected: "- store switcher should be able to switch to another stores"
 env: "QA"
 status: "Draft"
 created: "2026-01-21T23:39:58.004Z"
 created_by: "yuslove123l"
+updated_by: "yuslove123l"
+updated: "2026-01-29T22:55:49.558Z"
 ---
 
-#  verify Login as that a user and open the store switcher.
+# verify Login as that a user and open the store switcher.
 
 ## Story Reference
 Story #us-007
 
 ## Preconditions
-- user already login
-
+- one account needed
 
 ## Test Data
 momo1@gmail.com
 
-
 ## Test Steps
-1. go to setting 
-2. click on billing and select pro to subscrib any plan of your choice
-3. wait for approval from the admin
+1. go to this URL; https://inventory-app-qa.onrender.com/
+2. login to with your verify password 
+3. click on your profile to switch to another store
 
 ## Expected Results
-- user can be able to switch store 
+- store switcher should be able to switch to another stores
 
 ## Metadata
 - **Priority**: P2
-- **Suite**: register userstore 
-- **Component**: userstore 
+- **Suite**: register userstore
+- **Component**: registration
 - **Environment**: QA
