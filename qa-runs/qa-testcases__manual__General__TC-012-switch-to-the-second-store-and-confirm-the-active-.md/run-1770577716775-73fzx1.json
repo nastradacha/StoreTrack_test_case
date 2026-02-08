@@ -1,0 +1,25 @@
+{
+  "path": "qa-testcases/manual/General/TC-012-switch-to-the-second-store-and-confirm-the-active-.md",
+  "storyId": null,
+  "result": "pass",
+  "notes": "[Session: 2] \n\nEnvironment: staging\nBrowser: N/A\nBuild: N/A",
+  "executed_by": "yuslove123l",
+  "executed_at": "2026-02-08T19:08:36.775Z",
+  "steps": [
+    {
+      "name": "click on your profile and select store",
+      "result": "pass",
+      "notes": ""
+    },
+    {
+      "name": "click on menu on the dashboard",
+      "result": "pass",
+      "notes": ""
+    },
+    {
+      "name": "select product list",
+      "result": "pass",
+      "notes": ""
+    }
+  ]
+}
