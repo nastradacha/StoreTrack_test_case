@@ -1,0 +1,25 @@
+{
+  "path": "qa-testcases/manual/General/TC-009-verify-a-user-with-access-to-two-stores-via-userst.md",
+  "storyId": null,
+  "result": "pass",
+  "notes": "[Session: 2] \n\nEnvironment: staging\nBrowser: N/A\nBuild: N/A",
+  "executed_by": "yuslove123l",
+  "executed_at": "2026-02-08T19:03:46.363Z",
+  "steps": [
+    {
+      "name": "go to this URL; https://inventory-app-qa.onrender.com/",
+      "result": "pass",
+      "notes": "Take 1 to 2 minutes to load up"
+    },
+    {
+      "name": "login with your verify password",
+      "result": "pass",
+      "notes": ""
+    },
+    {
+      "name": "go to settting and click on billing to have access to two store",
+      "result": "pass",
+      "notes": ""
+    }
+  ]
+}
