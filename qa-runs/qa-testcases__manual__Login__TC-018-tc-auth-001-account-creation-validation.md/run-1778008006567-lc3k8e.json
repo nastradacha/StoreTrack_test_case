@@ -1,0 +1,35 @@
+{
+  "path": "qa-testcases/manual/Login/TC-018-tc-auth-001-account-creation-validation.md",
+  "storyId": null,
+  "result": "pass",
+  "notes": "[Session: 04-30] \n\nEnvironment: dev\nBrowser: N/A\nBuild: N/A",
+  "executed_by": "nastradacha",
+  "executed_at": "2026-05-05T19:06:46.567Z",
+  "steps": [
+    {
+      "name": "Open /register",
+      "result": "pass",
+      "notes": ""
+    },
+    {
+      "name": "Enter shop name QA-Store-<date>",
+      "result": "pass",
+      "notes": ""
+    },
+    {
+      "name": "Select Ghana or Nigeria",
+      "result": "pass",
+      "notes": ""
+    },
+    {
+      "name": "Enter email and matching password/confirm password.",
+      "result": "pass",
+      "notes": ""
+    },
+    {
+      "name": "Submit.",
+      "result": "pass",
+      "notes": ""
+    }
+  ]
+}
