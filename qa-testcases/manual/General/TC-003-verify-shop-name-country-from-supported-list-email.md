@@ -14,8 +14,8 @@ env: "QA"
 status: "Draft"
 created: "2026-01-16T22:18:49.685Z"
 created_by: "yuslove123l"
-updated_by: "yuslove123l"
-updated: "2026-02-04T21:56:24.611Z"
+updated_by: "nastradacha"
+updated: "2026-05-05T19:01:46.704Z"
 ---
 
 # verify shop name, country (from supported list), email, password + confirmation.
