@@ -1,38 +1,61 @@
 ---
-title: "Verify password change is recorded in audit logs"
+title: "Force password change after manager reset Priority"
 story_id: "AUTH-003"
 priority: "P3"
 suite: "General"
-preconditions: "- Password change completed successfully"
-data: "User ID"
+preconditions: |
+  - A cashier account exists and can normally log in
+  - A manager resets the cashier password to the configured default reset password
+  - The forced-change flag is set after the reset
+  - You have the reset password and a new valid password ready
+data: |
+  Username: <cashier_username>
+  Reset password: <configured default reset password>
+  New password: <new valid password>
 steps: |
-  1. Complete password change
-  2. Check log_entry table
-expected: "- Record exists with:  action = password_change correct timestamp correct user reference"
+  1. A cashier account exists and can normally log in
+  2. A manager resets the cashier password to the configured default reset password
+  3. The forced-change flag is set after the reset
+  4. You have the reset password and a new valid password ready
+expected: |
+  - User lands on /change-password and cannot reach Dashboard or Products until the change is done
+  - The new password is accepted and Dashboard loads
+  - The original reset password no longer works at login
+  - The new password works on the next login
 status: "Draft"
 created: "2026-05-18T17:38:28.576Z"
 created_by: "obidiahfavour"
 updated_by: "obidiahfavour"
-updated: "2026-05-18T17:39:49.258Z"
+updated: "2026-06-01T22:03:20.878Z"
 ---
 
-# Verify password change is recorded in audit logs
+# Force password change after manager reset Priority
 
 ## Story Reference
 Story #AUTH-003
 
 ## Preconditions
-- Password change completed successfully
+- A cashier account exists and can normally log in
+- A manager resets the cashier password to the configured default reset password
+- The forced-change flag is set after the reset
+- You have the reset password and a new valid password ready
 
 ## Test Data
-User ID
+Username: <cashier_username>
+Reset password: <configured default reset password>
+New password: <new valid password>
 
 ## Test Steps
-1. Complete password change
-2. Check log_entry table
+1. A cashier account exists and can normally log in
+2. A manager resets the cashier password to the configured default reset password
+3. The forced-change flag is set after the reset
+4. You have the reset password and a new valid password ready
 
 ## Expected Results
-- Record exists with:  action = password_change correct timestamp correct user reference
+- User lands on /change-password and cannot reach Dashboard or Products until the change is done
+- The new password is accepted and Dashboard loads
+- The original reset password no longer works at login
+- The new password works on the next login
 
 ## Metadata
 - **Priority**: P3
