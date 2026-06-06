@@ -1,0 +1,25 @@
+{
+  "path": "qa-testcases/manual/General/TC-020-verify-user-is-forced-to-change-password-after-res.md",
+  "storyId": null,
+  "result": "pass",
+  "notes": "[Session: TC-AUTH-001] \n\nEnvironment: dev\nBrowser: N/A\nBuild: N/A",
+  "executed_by": "obidiahfavour",
+  "executed_at": "2026-06-06T08:16:53.783Z",
+  "steps": [
+    {
+      "name": "Go to login page",
+      "result": "pass",
+      "notes": ""
+    },
+    {
+      "name": "Login with reset password",
+      "result": "fail",
+      "notes": ""
+    },
+    {
+      "name": "Try to access dashboard",
+      "result": "fail",
+      "notes": ""
+    }
+  ]
+}
