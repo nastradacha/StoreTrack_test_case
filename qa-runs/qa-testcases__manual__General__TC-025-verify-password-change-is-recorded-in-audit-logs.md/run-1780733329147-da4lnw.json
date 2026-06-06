@@ -1,0 +1,30 @@
+{
+  "path": "qa-testcases/manual/General/TC-025-verify-password-change-is-recorded-in-audit-logs.md",
+  "storyId": null,
+  "result": "pass",
+  "notes": "[Session: TC-AUTH-001] \n\nEnvironment: dev\nBrowser: N/A\nBuild: N/A",
+  "executed_by": "obidiahfavour",
+  "executed_at": "2026-06-06T08:08:49.147Z",
+  "steps": [
+    {
+      "name": "A cashier account exists and can normally log in",
+      "result": "pass",
+      "notes": ""
+    },
+    {
+      "name": "A manager resets the cashier password to the configured default reset password",
+      "result": "pass",
+      "notes": ""
+    },
+    {
+      "name": "The forced-change flag is set after the reset",
+      "result": "pass",
+      "notes": ""
+    },
+    {
+      "name": "You have the reset password and a new valid password ready",
+      "result": "pass",
+      "notes": ""
+    }
+  ]
+}
