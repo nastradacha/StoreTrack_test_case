@@ -1,0 +1,70 @@
+{
+  "path": "qa-testcases/manual/General/TC-022-verify-user-can-successfully-change-password.md",
+  "storyId": null,
+  "result": "fail",
+  "notes": "[Session: TC-AUTH-001] \n\nEnvironment: dev\nBrowser: N/A\nBuild: N/A",
+  "executed_by": "obidiahfavour",
+  "executed_at": "2026-06-06T08:14:57.287Z",
+  "steps": [
+    {
+      "name": "Open the login page",
+      "result": "pass",
+      "notes": ""
+    },
+    {
+      "name": "Enter username/Email",
+      "result": "pass",
+      "notes": ""
+    },
+    {
+      "name": "Enter reset password",
+      "result": "pass",
+      "notes": ""
+    },
+    {
+      "name": "Click Login",
+      "result": "pass",
+      "notes": ""
+    },
+    {
+      "name": "System redirects user to change-password page",
+      "result": "pass",
+      "notes": ""
+    },
+    {
+      "name": "Enter current password (reset password)",
+      "result": "pass",
+      "notes": ""
+    },
+    {
+      "name": "Enter a new strong password",
+      "result": "fail",
+      "notes": ""
+    },
+    {
+      "name": "Confirm new password",
+      "result": "pass",
+      "notes": ""
+    },
+    {
+      "name": "Click Submit",
+      "result": "pass",
+      "notes": ""
+    },
+    {
+      "name": "System updates password successfully",
+      "result": "pass",
+      "notes": ""
+    },
+    {
+      "name": "Log out",
+      "result": "pass",
+      "notes": ""
+    },
+    {
+      "name": "Login again using the new password",
+      "result": "fail",
+      "notes": ""
+    }
+  ]
+}
